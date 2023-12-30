@@ -1,0 +1,48 @@
+
+body{
+    background-color: rgb(149, 209, 230);
+}
+
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: rgb(149, 209, 230);
+  }
+
+div{
+    background-color: lightblue;
+    padding: 2rem;
+    border-radius: 5rem;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+
+.form-flex{
+display: flex;
+align-items: center;
+}
+
+button{
+    margin-left: 1rem;
+    padding: 0.2rem 0.8rem;  
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form input {
+    margin-bottom: 0;
+}
+form button {
+    white-space: nowrap;
+    padding: 0.2rem 0.8rem;
+}
