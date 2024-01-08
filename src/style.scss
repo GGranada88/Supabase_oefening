@@ -3,6 +3,9 @@ body{
     background-color: rgb(149, 209, 230);
 }
 
+.supabase-auth-ui_ui-divider{
+    visibility: hidden;
+}
 .container {
     height: 90vh;
     display: flex;
@@ -12,7 +15,20 @@ body{
     margin: 0 auto;
     background-color: rgb(149, 209, 230);
   }
-
+  .supabase-auth-ui_ui-container{
+    background-color: rgb(149, 209, 230);
+  
+  }
+#auth-sign-in{
+    margin: 0 auto;
+    background-color: rgb(149, 209, 230);
+}
+#email{
+    padding:0.5rem 2rem
+}
+#password{
+    padding:0.5rem 2rem
+}
 div{
     background-color: lightblue;
     padding: 2rem;
