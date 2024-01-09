@@ -57,11 +57,11 @@ const Home = () => {
     } else {
       await supabase.from("cadeaus").insert({
         gift: newCadeau,
+        user_id: user.id,
       });
     }
-
-    setNewCadeau("");
     getCadeaus();
+    setNewCadeau("");
   };
 
   useEffect(() => {

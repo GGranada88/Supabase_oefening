@@ -15,8 +15,8 @@ const Login = () => {
   useEffect(() => {
     supabase.auth.onAuthStateChange(async (e) => {
       switch (e) {
-        // case "INITIAL_SESSION":
-        //   break;
+        case "INITIAL_SESSION":
+          break;
         case "SIGNED_IN":
           navigate("/home");
           break;
